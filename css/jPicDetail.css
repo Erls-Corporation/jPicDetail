@@ -1,13 +1,20 @@
 /* Not used in Plugin */
-body { font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#eaeffb; padding: 0; margin: 0; }
-header { background: #d4c700; padding: 10px; }
+body { font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#222; padding: 0; margin: 0; color: #d9d9d9; text-shadow: 1px 1px 3px #000;  }
+a { color: #fff; text-decoration: none; }
+header { background: #d4c700; padding: 10px; background-color: #444444; background-image: -webkit-gradient(linear, left top, left bottom, from(#151515), to(#2f2f2f)); /* Saf4+, Chrome */ background-image: -webkit-linear-gradient(top, #151515, #2f2f2f); /* Chrome 10+, Saf5.1+, iOS 5+ */ background-image:    -moz-linear-gradient(top, #151515, #2f2f2f); /* FF3.6 */ }
+nav { background: #ccc; height: 30px; margin: 0; padding: 0; }
+nav ul { list-style: none; padding: 0 0 0 10px; margin: 0; }
+nav li { float: left; padding: 0 10px 0 0; }
+nav li a { display: block; height: 25px; padding: 5px 10px 0 10px; color: #aaa; text-decoration: none; font-weight: bold; }
+nav li a:hover, nav li a.active { background: #222; }
+
 section { margin: 10px; }
-footer { clear: both; background: #d4c700; padding: 10px; }
+footer { clear: both; background: #d4c700; padding: 10px; background-image: -webkit-gradient(linear, left top, left bottom, from(#2f2f2f), to(#151515)); /* Saf4+, Chrome */ background-image: -webkit-linear-gradient(top, #2f2f2f, #151515); /* Chrome 10+, Saf5.1+, iOS 5+ */ background-image:    -moz-linear-gradient(top, #2f2f2f, #151515); /* FF3.6 */ border-top: 1px solid #444; }
 
 /* Used in Plugin */
-ul { list-style-type: none; }
-li { float: left; position: relative; margin: 0 20px 20px 0; background: #ccffaa; overflow: hidden; }
-li img { position: absolute; }
-li span { position: absolute; left: 0px; top: 0px; z-index: 1500; background: #000; color: #fff; padding: 3px; opacity:0; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
-li span h2 { font-size: 1.2em; }
-li span p { font-style: italic; }
+.jPicDetail ul { list-style-type: none; }
+.jPicDetail li { float: left; position: relative; margin: 0 20px 20px 0; background: #ccffaa; overflow: hidden; }
+.jPicDetail li img { position: absolute; }
+.jPicDetail li span { position: absolute; left: 0px; top: 0px; z-index: 1500; background: #000; color: #fff; padding: 3px; opacity:0; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
+.jPicDetail li span h2 { font-size: 1.2em; }
+.jPicDetail li span p { font-style: italic; }
