@@ -1,0 +1,13 @@
+/* Not used in Plugin */
+body { font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif; background:#eaeffb; padding: 0; margin: 0; }
+header { background: #d4c700; padding: 10px; }
+section { margin: 10px; }
+footer { clear: both; background: #d4c700; padding: 10px; }
+
+/* Used in Plugin */
+ul { list-style-type: none; }
+li { float: left; position: relative; margin: 0 20px 20px 0; background: #ccffaa; overflow: hidden; }
+li img { position: absolute; }
+li span { position: absolute; left: 0px; top: 0px; z-index: 1500; background: #000; color: #fff; padding: 3px; opacity:0; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
+li span h2 { font-size: 1.2em; }
+li span p { font-style: italic; }
