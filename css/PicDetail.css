@@ -1,0 +1,6 @@
+ul { list-style-type: none; }
+li { float: left; position: relative; margin: 0 20px 20px 0; background: #ccffaa; overflow: hidden; }
+li img { position: absolute; }
+li span { position: absolute; left: 0px; top: 0px; z-index: 1500; background: #000; color: #fff; padding: 3px; opacity:0; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
+li span h2 { font-size: 1.2em; }
+li span p { font-style: italic; }

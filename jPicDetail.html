@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>jPicDetail</title>
+	<meta name="description" content="">
+	<meta name="author" content="MZ">
+	<link rel="stylesheet" href="css/PicDetail.css">
+	
+	<script src="js/jquery-1.6.4.min.js"></script>
+	<script src="js/jPicDetail.jQuery.js"></script>
+	
+</head>
+
+<style type="text/css">
+	
+</style>
+<script>
+	$(function(){  
+		$('.jPicDetail').jPicDetail( {
+			stickDurationAfter: 0
+		 });
+	});
+</script>
+<body>
+	<div id="container">
+		<header>
+			<h1>jPicDetail</h1>
+		</header>
+		
+		<div id="main">
+			<section>
+				<h2>List of Objects with hidden details</h2>
+				<p>Hover over an object to slide in the details</p>
+			</section>
+			<section>
+				<ul class="jPicDetail">
+					<li>
+						<img src="http://placehold.it/276x110/aaffee" alt="" />
+						<span>
+							<h2>Description here</h2>
+							<p>Lots</p>
+							<p>of</p>
+							<p>information</p>
+						</span>
+					</li>
+					<li>
+						<span>
+							<h2>Description</h2>
+							<p>here</p>
+						</span>
+						<img src="http://placehold.it/100x180/aaff00" alt="" />
+					</li>
+					<li>
+						<span>Description here</span>
+						<img src="http://placehold.it/276x110/aaffae" alt="" />
+					</li>
+					<li>
+						<span>
+							<h2>Description here</h2>
+							<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
+						</span>
+						<img src="http://placehold.it/276x110/2affb6" alt="" />
+					</li>
+				</ul>
+			</section>
+		</div>
+		
+		<footer>
+			<p>Created with love in Switzerland</p>
+		</footer>
+	</div>
+	
+	
+	
+</body>
+</html>
