@@ -11,23 +11,23 @@ You will want to include jQuery:
 		 });
     </script>
 
-## 3-Step Setup
+## Setup
 
 * Add all the Javascripts (jQuery, jPicDetail and `$(element).jPicDetail();` block) as described above.
 * Add the necessary CSS.
 * Hover over your Image
 * Have fun
 
-### License
+## License
 Licensed under MIT
 http://www.opensource.org/licenses/mit-license.php
 
 
-### Changelog
+## Changelog
 Launch  : September 2011
 Version : 0.3
 Released: 27th Sep, 2011 and converted into a jQuery plugin
 
-### Contact
+## Contact
 Follow me on Twitter: 
 http://twitter.com/SmartforceWeb
