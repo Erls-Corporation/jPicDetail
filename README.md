@@ -1,5 +1,9 @@
 # jPicDetail is a jQuery plugin for showing information on pictures in a nice way
 
+## Demo
+On [JSFiddle]http://jsfiddle.net/mzahno/adKby/
+
+
 ## How it works
 You will want to include jQuery:
 
