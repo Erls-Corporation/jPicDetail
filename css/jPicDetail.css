@@ -15,6 +15,6 @@ footer { clear: both; background: #d4c700; padding: 10px; background-image: -web
 .jPicDetail ul { list-style-type: none; }
 .jPicDetail li { float: left; position: relative; margin: 0 20px 20px 0; background: #ccffaa; overflow: hidden; }
 .jPicDetail li img { position: absolute; }
-.jPicDetail li span { position: absolute; left: 0px; top: 0px; z-index: 1500; background: #000; color: #fff; padding: 3px; opacity:0; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
+.jPicDetail li span { position: absolute; z-index: 1500; color: #fff; padding: 3px; font-family: Helvetica, Arial, Sans-Serif; font-size: 0.8em }
 .jPicDetail li span h2 { font-size: 1.2em; }
 .jPicDetail li span p { font-style: italic; }
