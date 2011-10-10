@@ -43,7 +43,7 @@
             function getDimension(ob) {
                 var dimensions = [];
                 dimensions.imgHeight = ob.find("img").outerHeight();
-                dimensions.imgWidth = ob.find("img").outerWidth(); // Not used yet
+                dimensions.imgWidth = ob.find("img").outerWidth();
                 dimensions.spanHeight = ob.find("span").outerHeight();
                 return dimensions;
             }
