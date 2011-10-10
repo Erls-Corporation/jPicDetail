@@ -12,7 +12,7 @@ On [GitHub](https://github.com/mikezahno/jPicDetail)
 ### How it works
 You will want to include jQuery:
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
    	<script src="jquery.jPicDetail.min.js"></script>
    	<script>
       	$('.jPicDetail').jPicDetail( {
@@ -20,7 +20,7 @@ You will want to include jQuery:
 			overlayColor: "#000", 
 			overlayTransparency: 0.8 
 		 });
-    </script>
+</script>
 
 ### Setup
 
@@ -34,6 +34,7 @@ You will want to include jQuery:
 #### Version : 0.4, Released: 05th Oct, 2011
  * Setting init position of overlay with jquery
  * Updated CSS
+ * Bugfixes
  * [JSFiddle](http://jsfiddle.net/mzahno/PNRKA/)
 
 ### History
