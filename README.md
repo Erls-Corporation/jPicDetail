@@ -31,7 +31,7 @@ You will want to include jQuery:
 
 ### Changelog
 
-#####Version : 0.4, Released: 05th Oct, 2011
+#### Version : 0.4, Released: 05th Oct, 2011
  * Setting init position of overlay with jquery
  * Updated CSS
  * [JSFiddle](http://jsfiddle.net/mzahno/PNRKA/)
