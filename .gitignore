@@ -1,1 +1,1 @@
-*.esproj .gitignore .hg/dirstate .hgignore .DS_Store
+*.esproj .gitignore .hgignore .DS_Store *.hg
