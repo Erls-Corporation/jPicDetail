@@ -7,238 +7,66 @@
 	<meta name="author" content="MZ">
 	<link rel="stylesheet" href="css/jPicDetail.css">
 	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="js/jPicDetail.jQuery.js"></script>
-	
 </head>
 
-<script>
-	$(function(){  
-		$('.jPicDetail').jPicDetail( {
-			stickDurationAfter: 0,
-			overlayColor: "#ff0000",
-			overlayTransparency: 0.5
-		 });
-	});
-</script>
 <body>
 	<div id="container">
 		<header>
 			<h1>jPicDetail</h1>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="#" class="active">About</a></li>
+		<section>
+			<h2>List of Objects with hidden details</h2>
+			<p>jQuery-Plugin, tested with 1.6x, all Markup HTML 5. So use recent versions of Firefox, Opera, Safari or Chrome</p>
+			<p>Hover over an object to slide in the details</p>
+			<h3>Parameters</h3>
+			<pre>
+				<code>
+$('.jPicDetail').jPicDetail( {
+	stickDurationAfter: 0,	// Stick duration after leaving the image
+	overlayColor: "#000",	// Overlay Color
+	overlayTransparency: 1,	// Transparancy of the background
+	descrTextColor: "#FFF",	// Color of the description text
+	descriptionPadding: 10	// Set textpadding, don't use css
+ });
+				</code>
+			</pre>
+		</section>
+		<section>
+			<h2>Picturegroup 1</h2>
+			<ul class="jPicDetail">
+				<li><img src="http://placehold.it/100x200/5193d4/FFFFFF" alt="1" data-descr="lorem ipsum jkhgs dhg sjdhg jshdg " /></li>
+				<li><img src="http://placehold.it/200x300/5193d4/FFFFFF" alt="2" data-descr="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." /></li>
+				<li><img src="http://placehold.it/300x200/5193d4/FFFFFF" alt="3" data-descr="<h2>title</li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>" /></li>
+				<li><img src="http://placehold.it/100x200/5193d4/FFFFFF" alt="4" data-descr="lorem ipsum 4" /></li>
+				<li>
+					<a href="http://www.flickr.com/photos/pinksherbet/5184250759/" title="FREE Autumn School Bus Nostalgia Creative Commons by Pink Sherbet Photography, on Flickr"><img src="http://farm5.static.flickr.com/4090/5184250759_a7d739ae3f.jpg" width="500" height="333" alt="FREE Autumn School Bus Nostalgia Creative Commons"data-descr="FREE Autumn School Bus Nostalgia Creative Commons by Pink Sherbet Photography, on Flickr" />></a>
+				</li>
 			</ul>
-		</nav>
-		<br style="clear: both;">
-		<div id="main">
-			<section>
-				<h2>List of Objects with hidden details</h2>
-				<p>jQuery-Plugin, tested with 1.6x, all Markup HTML 5. So use Firefox, Opera, Safari or Chrome</p>
-				<p>Hover over an object to slide in the details</p>
-			</section>
-			<section>
-				<ul class="jPicDetail">
-					<li>
-						<img src="http://placehold.it/276x310/aaffee" alt="" />
-						<span>
-							<h2>Description here</h2>
-							<p>Lots</p>
-							<p>of</p>
-							<p>information</p>
-						</span>
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x230/aaff00" alt="" />
-					</li>
-					<li>
-						<span>Description here</span>
-						<img src="http://placehold.it/276x310/aaffae" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description here</h2>
-							<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Aenean eu leo quam.</p>
-						</span>
-						<img src="http://placehold.it/276x210/2affb6" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-					<li>
-						<span>
-							<h2>Description</h2>
-							<p>here</p>
-						</span>
-						<img src="http://placehold.it/100x100/aaff00" alt="" />
-					</li>
-				</ul>
-			</section>
-			
-		</div>
+		</section>
 		
-		<footer>
-			<p>Created 2011, <a href="http://www.opensource.org/licenses/mit-license.php">The MIT License</a></p>
-		</footer>
+		<section>
+			<h2>Picturegroup 2</h2>
+			<ul class="jPicDetail">
+				<li><img src="http://placehold.it/100x100/5193d4/FFFFFF" alt="5" data-descr="lorem ipsum 5" /></li>
+				<li><img src="http://placehold.it/100x100/5193d4/FFFFFF" alt="6" data-descr="lorem ipsum 6" /></li>
+				<li><img src="http://placehold.it/100x100/5193d4/FFFFFF" alt="7" data-descr="lorem ipsum 7" /></li>
+				<li><img src="http://placehold.it/100x100/5193d4/FFFFFF" alt="8" data-descr="lorem ipsum 8" /></li>
+			</ul>
+		</section>
 	</div>
 	
-	
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script src="js/jPicDetail.jQuery.min.js"></script>
+	<script>
+		$(function(){  
+					$('.jPicDetail').jPicDetail( {
+						stickDurationAfter: 0,	// Stick duration after leaving the image
+						overlayColor: "#000",	// Overlay Color
+						overlayTransparency: 1,	// Transparancy of the background
+						descrTextColor: "#FFF",	// Color of the description text
+						descriptionPadding: 10	// Set textpadding, don't use css
+					 });
+				});
+	</script>
 </body>
 </html>

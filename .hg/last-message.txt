@@ -1,0 +1,3 @@
+- New Version
+- Now calculates the position of the span
+- span is generated, by data attribute in the image
