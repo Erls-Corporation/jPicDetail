@@ -125,7 +125,7 @@
 			obj.find("li").each(function(){
 				var img = $(this).find("img");
 				var descr = img.attr("data-descr");
-				img.after("\<span\>"+descr+"\<\/span\>");
+				img.after("<span>" + descr + "<\/span>");
 			});
 		});
 	};
