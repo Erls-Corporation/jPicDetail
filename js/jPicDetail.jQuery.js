@@ -1,4 +1,4 @@
-//*
+/*
  * jPicDetail
  * Show Information on Thumbnails in a smooth overlay
  *
